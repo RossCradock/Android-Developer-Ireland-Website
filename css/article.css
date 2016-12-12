@@ -1,0 +1,28 @@
+#container {
+	color: #656565;
+}
+
+section h2 {
+	color: #A4C639; /* aqua blue */
+	padding-top: 2em;
+	font-size: 25px;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-left: 1em;
+}
+
+section p {
+	line-height: 170%;
+	margin: 2em;
+}
+
+#quote {
+	float: center;
+	font-size: 2em;
+	color: lightblue;
+	text-align: center;
+}
+
+.article_info {
+	margin-bottom: 2em;
+}
