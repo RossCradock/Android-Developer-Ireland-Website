@@ -1,0 +1,62 @@
+.develop_article {
+	display: flex;
+	flex-direction: column;
+	color: #656565;
+}
+
+.develop_article_text {
+	flex: 1 0 1.2em;
+	text-align: center;
+}
+
+.develop_article_text h2 {
+	height: 1.2em;
+	overflow: hidden;
+}
+
+.develop_article_text a{
+	color: #A4C639;
+	text-decoration: none;
+}
+
+.develop_article_text a:hover {
+	color: #DB4A39; /* red */
+}
+
+.develop_article_body {
+	flex: 2.5 0 3.6em;
+	margin-left: 3em;
+	margin-right: 3em;
+	background-color: #FFFFFF;
+}
+
+.button_container {
+	flex: 1.5 0 2em;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0.5em;
+}
+
+.button_container span {
+	flex: 3 0;
+}
+
+.button_container p{
+	flex:1 0 3em;
+}
+
+.button_container a {
+	color: white;
+	background-color: #A4C639; /* android green */
+	text-decoration: none;
+	white-space: nowrap;
+	text-align: center;
+	display: block;
+	padding: 0.5em;
+}
+
+.button_container a:hover {
+	color: white;
+	background-color: #DB4A39; /* red */
+	text-decoration: none;
+}
