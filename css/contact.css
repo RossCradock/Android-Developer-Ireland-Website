@@ -1,0 +1,22 @@
+section {
+	color: #656565;
+	display: inline;
+}
+
+section img {
+	float: right;
+	margin: 3em;
+	
+}
+
+section h2 {
+	float: left;
+	margin-left: 2em;
+}
+
+section p {
+	margin-left: 3em;
+}
+
+
+
