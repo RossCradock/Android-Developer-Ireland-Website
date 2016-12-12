@@ -1,0 +1,72 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+	color: #656565;
+}
+
+p {
+	color: #656565;
+	margin-top: 2em;
+}
+
+.table_image {
+	display: flex;
+	flex-direction: row;
+}
+
+.smaller_table_image {
+	margin-left: 5em;
+}
+
+.table_container table { 
+	border-collapse: collapse;
+	text-align: left; 
+	width: 100%; 
+	border: 2px solid #00A0D1;
+}
+	
+.table_container {
+	color: #656565;
+	background: #FFFFFF; 
+	overflow: hidden;
+}
+
+.table_container table td, .table_container table th {
+	padding-right: 3px;
+	padding-left: 10px;
+	padding: 5px;
+}
+
+.table_container table th {
+	padding: 10px;
+	background-color:#00A0D1;
+	color:#FFFFFF;
+	border-left: 1px solid #00A0D1;
+}
+
+.table_container table td {
+	border-left: 1px solid #00A0D1;
+}
+
+.alt {
+	background: #C7F0FC;
+	color: #656565;
+}
+
+.total {
+	background-color: #CCCCCC;
+}
+
+#empty_heading {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #00A0D1;
+}
+
+ul {
+	color: #656565;
+}
+
+ul li span {
+	padding-right: 1.5em;
